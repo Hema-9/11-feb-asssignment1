@@ -1,0 +1,50 @@
+sno=int(input("enter sno:"))
+sname=input("enter sname:")
+S1=int(input("enter s1:"))
+S2=int(input("enter s2:"))
+S3=int(input("enter s3:"))
+S4=int(input("enter s4:"))
+S5=int(input("enter s5:"))
+S6=int(input("enter s6:"))       
+total=S1+S2+S3+S4+S5+S6
+print(total)
+avg=total/6
+if(S1>=35 and S2>=35 and S3>=35 and S4>=35 and S5>=35 and S6>=35):
+      print(avg)       
+if avg>91:
+     print('O grade')
+elif  avg>81:
+     print('A grade')
+elif avg>71:
+     print('B grade')
+elif avg>61:
+     print('C grade')
+elif avg>51:
+     print('D grade')
+elif avg>41:
+     print('pass')
+else:
+     print('fail')
+       
+output:
+enter sno:1
+enter sname:thanu
+enter s1:98
+enter s2:87
+enter s3:76
+enter s4:65
+enter s5:98
+enter s6:76
+500
+83.33333333333333
+A grade
+enter sno:2
+enter sname:thanu sri
+enter s1: 67
+enter s2:87
+enter s3:98
+enter s4:65
+enter s5:76
+enter s6:76
+469
+78.16666666666667
